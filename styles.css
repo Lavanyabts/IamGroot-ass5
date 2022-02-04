@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:ital@1&family=Patrick+Hand&family=Rubik&family=Supermercado+One&display=swap');
+ * {
+     box-sizing: border-box;
+ }
+
+ :root {
+     --primary: #5eead4;
+     --teal: #99f6e4;
+     --black: #18181b;
+     --primary-lack: #171717;
+ }
+
+ body{
+     font-family: 'Architects Daughter', cursive;
+     margin: 0;
+     color: #333;
+     text-align: center;
+     background-color: var(--primary);
+ }
+
+ h1 {
+     background-color: var(--primary);
+     text-align: center;
+     margin-top: 0rem;
+ }
+
+ main {
+     margin: auto;
+     padding: 1rem;
+     max-width: var(--width-break);
+ }
+
+ textarea {
+    border-radius: 9px;
+    border-color: var(--primary-lack);
+    border-width: medium;
+    outline: none;
+    box-sizing: border-box;
+     display: block;
+     width: 80%;
+     margin: auto;
+     min-height: 20vh;
+     margin-top: 2rem;
+     font-size: large;
+     font-family: inherit;
+     padding: 15px;
+     border-color: var(--primary-lack);
+ }
+
+ button {
+    background-color: transparent;
+    color: var(--primary-lack);
+    border-color: var(--primary-lack);
+    width: max-content;
+    font-weight: 700;
+    font-size: small;
+     border: none;
+     border-radius: 7px;
+     margin: 1rem 1rem;
+     outline: auto;
+     padding: 1rem 2rem;
+     font-family: 'Architects Daughter', cursive;
+ }
+
+ #translate-output {
+     padding: 1rem 2rem;
+     box-sizing: border-box;
+     width: 100%;
+     min-height: 10vh;
+     max-height: 20vh;
+     overflow: scroll;
+     border: 1px solid var(--black);
+ }
+
+ footer {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     padding: 1rem;
+     background-color: var(--teal);
+     text-align: center;
+ }
+
+ footer p {
+     max-width: var(--width-break);
+     margin: auto;
+ }
+
+ #output {
+     margin: auto;
+     border: 1px solid black;
+     width: 80%;
+     height: 10rem;
+     padding: 1px;
+     background-color: aliceblue;
+     border-color: var(--primary-lack);
+     border-radius: 9px;
+     border-width: medium;
+     outline: none;
+ }
